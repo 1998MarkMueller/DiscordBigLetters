@@ -24,7 +24,7 @@ namespace DiscordBigLetters
             richTextBox2.Text = "------------ New Message ------------\n";
             if (richTextBox1.Text.Length >= 10000)
             {
-                MessageBox.Show("Enter Text Less Than 10000 characters");
+                MessageBox.Show("Enter Text Less Than '10000' characters");
             }
             else
             {
